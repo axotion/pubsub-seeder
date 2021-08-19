@@ -1,7 +1,5 @@
 # PubSub Seeder
-### PubSub Seeder written in Node.JS/TS as CLI command for extreme convenience usage
-
-![alt text](https://s5.gifyu.com/images/2021-08-19-22.06.46.gif "Title")
+### PubSub Seeder written in JS as CLI command for extreme convenience usage
 
 ## Install
 
@@ -37,7 +35,7 @@ exportPUBSUB_PRIVATE_KEY=
 ## Usage
 
 ```
-ts-node node_modules_location/lib/cli/seed.ts topic-subs.json
+node --es-module-specifier-resolution=node node_modules_location/lib/cli/seed.js topic-subs.json
 ```
 
 ## Example file

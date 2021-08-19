@@ -1,8 +1,9 @@
 {
   "name": "pub-sub-seeder",
-  "version": "1.0.0",
+  "version": "1.0.4",
+  "type": "module",
   "description": "Simple seeder for pub-sub",
-  "main": "lib/cli/seed.ts",
+  "main": "lib/cli/seed.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,6 @@
   "author": "Kamil Fronczak",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/pubsub": "^2.16.6",
-    "cli-color": "^2.0.0"
+    "@google-cloud/pubsub": "^2.16.6"
   }
 }
