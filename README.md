@@ -39,9 +39,9 @@ export PUBSUB_PRIVATE_KEY=
 
 ```
 ./node_modules_location/pub-sub-seeder/bin/seed.js topic-subs.json
-
-or if installaed globally
-
+```
+or if installed globally
+```
 pub-sub-seed topic-subs.json
 
 ```
