@@ -1,6 +1,9 @@
 # PubSub Seeder
 ### PubSub Seeder written in JS as CLI command for extreme convenience usage
 
+![alt text](https://s5.gifyu.com/images/2021-08-19-22.44.40.gif "Title")
+
+
 ## Install
 
 ```
