@@ -32,13 +32,18 @@ export PUBSUB_EMULATOR_HOST=localhost:8085
 ### For GCP pub-sub 
 ```
 export PUBSUB_PROJECT_ID=test
-exportPUBSUB_CLIENT_EMAIL=
-exportPUBSUB_PRIVATE_KEY=
+export PUBSUB_CLIENT_EMAIL=
+export PUBSUB_PRIVATE_KEY=
 ```
 ## Usage
 
 ```
-node --es-module-specifier-resolution=node node_modules_location/lib/cli/seed.js topic-subs.json
+./node_modules_location/pub-sub-seeder/bin/seed.js topic-subs.json
+
+or if installaed globally
+
+pub-sub-seed topic-subs.json
+
 ```
 
 ## Example file

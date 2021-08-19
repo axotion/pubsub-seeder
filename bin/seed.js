@@ -1,5 +1,8 @@
-import {Seeder} from "../pub-sub/seeder";
+#!/usr/bin/env node
+
+import {Seeder} from "../lib/pub-sub/seeder.js";
 import * as fs from "fs"
+
 
 const bootstrap = async function () {
     const args = process.argv
